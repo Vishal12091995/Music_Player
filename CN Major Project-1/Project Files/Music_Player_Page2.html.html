@@ -1,0 +1,419 @@
+<!--DOCTYPE html tells the browser that the document is an html page-->
+<!DOCTYPE html>
+<!--Begining of html code-->
+<html lang="en">
+    <!--Begining of head section--> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="Music player.css"> 	 <!--Linking the CSS stylesheet using extrenal CSS-->
+    <!--linkking Bootstrap-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Linking Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--Linking Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap" rel="stylesheet"> <!--linking fontawesome style sheets-->
+</head>
+<!--End of Head tag-->
+<!-- Start of Body -->
+<body>
+        <!--Start a navigation bar-->
+        <nav>
+            <div class="navbar_menu">
+                <div class="music_logo_name">
+                    <div class="music_logo">
+                        <img src="/Images/website_logo.png" alt="Image"> <!--music icon-->
+                    </div>
+                    <div class="logo_name">
+                        <div>Ninja</div>
+                        <div>Studio</div>
+                    </div>
+                    <div class="favorites">Favorites</div>
+                </div>
+                <div class="right_nav_sec"> <!--Right nav sectiom-->
+                    <form class="d-flex form_1" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> <!--Search bar-->
+                        <button><i class="fa-solid fa-microphone"></i></button> <!--Microphone Icon-->
+                      </form>
+                </div>
+                <div id="notifications">
+                    <i class="fas fa-bell"></i> <!--Bell Icon-->
+                </div>
+                <div class="profile_account_image">
+                    <img src="/Images/20220720_140127.jpg" alt="Profile Image" > <!--Profile Image-->
+                </div>
+                    
+                </div>
+            </div>
+        </nav>
+        <!--End of Navigation bar-->
+        <!-- main Section -->
+        <main class="main_section">
+            <!--Left Section-->
+            <div class="left_sec">
+                <!--Playing Song bar-->
+                <div class="song_details">
+                    <div class="song_image">
+                        <img src="/Images/3peg.jpg" alt="image"> <!--related song Image-->
+                    </div>
+                    <!--related song description-->
+                    <div class="song_description">
+                        <h1>Mujhko Irade de</h1>
+                        <h5>Arjit Singh</h5>
+                        <p>This song is one of the famous, spectalus and loveable song. loved by most of th romatic peoples. full of joy and happiness</p>
+                        <br>
+                        <a href="#" class="button-1"s>Preview&nbsp;➤</a>
+                        <a href="#" class="button-2">Follow</a>
+                        <p>247 tracks/147 Albums</p>    
+                    </div>                    
+                </div>
+                <!--End of playing song bar-->
+                <!--Starting of song container-->
+                <div class="song_container">
+                    <!--song 1-->
+                    <a href="#music-bar"> <div class="song">
+                        <div>01<img src="/Images/teriyan.jpg" alt=""></div> <!--song 1 image-->
+                        <div class="song_timing">4:44</div>
+                        <div><i class="fa-solid fa-heart" id="fa-heart"></i><i class="fa-solid fa-plus" id="fa-plus"></i></div>
+                    </div></a>
+                    <!--song 1 end-->
+                    
+                    <!--song 2 start-->
+                    <a href="#music-bar"> <div class="song">
+                        <div>02<img src="/Images/teriyan.jpg" alt=""></div> <!--song 2 image-->
+                        <div class="song_timing">4:44</div>
+                        <div><i class="fa-solid fa-heart" id="fa-heart"></i><i class="fa-solid fa-plus" id="fa-plus"></i></div>
+                    </div></a>
+                    <!--song 2 end-->
+                    <!--song 3starts-->
+                    <a href="#music-bar"> <div class="song">
+                        <div>03 <img src="/Images/teriyan.jpg" alt=""></div> <!--song 3 image-->
+                        <div class="song_timing">5:10</div>
+                        <div><i class="fa-solid fa-heart" id="fa-heart"></i><i class="fa-solid fa-plus" id="fa-plus"></i></div>
+                    </div></a>
+                    <!--song 3 end-->
+                    <!--song 4 started-->
+                    <a href="#music-bar"> <div class="song">
+                        <div>04 <img src="/Images/teriyan.jpg" alt=""></div>
+                        <div class="song_timing">5:45</div>
+                        <div><i class="fa-solid fa-heart" id="fa-heart"></i><i class="fa-solid fa-plus" id="fa-plus"></i></div>
+                    </div></a>
+                    <!--song 4 end-->
+                    <!--song 5 start-->
+                    <a href=""><div class="song">
+                        <div>05 <img src="/Images/teriyan.jpg" alt=""></div>
+                        <div class="song_timing">4:05</div>
+                        <div><i class="fa-solid fa-heart" id="fa-heart"></i><i class="fa-solid fa-plus" id="fa-plus"></i></div>
+                    </div></a>
+                    <!--song 5 end-->
+                    <!--song 6 start-->
+                    <a href="#music-bar"><div class="song">
+                        <div>06 <img src="/Images/teriyan.jpg" alt=""></div>
+                        <div class="song_timing">4:23</div>
+                        <div><i class="fa-solid fa-heart" id="fa-heart"></i><i class="fa-solid fa-plus" id="fa-plus"></i></div>
+                    </div></a>
+                    <!--song 6 end-->
+                    <!--song 7 start-->
+                    <a href="#music-bar"><div class="song">
+                        <div>07 <img src="/Images/teriyan.jpg" alt=""></div>
+                        <div class="song_timing">4:54</div>
+                        <div><i class="fa-solid fa-heart" id="fa-heart"></i><i class="fa-solid fa-plus" id="fa-plus"></i></div>
+                    </div></a>
+                    <!--song 7 end-->
+                    <!--song 8 start-->
+                    <a href="#music-bar"><div class="song">
+                        <div>08 &emsp; <img src="/Images/teriyan.jpg" alt=""></div>
+                        <div class="song_timing">5:30</div>
+                        <div><i class="fa-solid fa-heart" id="fa-heart"></i><i class="fa-solid fa-plus" id="fa-plus"></i></div>
+                    </div></a>
+                    <!--song 8 end-->
+                    <!--song 9 start-->
+                    <a href="#music-bar"><div class="song">
+                        <div>09 <img src="/Images/teriyan.jpg" alt=""></div>
+                        <div v>4:43</div>
+                        <div><i class="fa-solid fa-heart" id="fa-heart"></i><i class="fa-solid fa-plus" id="fa-plus"></i></div>
+                    </div></a>
+                    <!--song 9 end-->
+                    <!--song 10 start-->
+                    <a href="#music-bar"><div class="song">
+                        <div>010 <img src="/Images/teriyan.jpg" alt=""></div>
+                        <div class="song_timing">4:40</div>
+                        <div><i class="fa-solid fa-heart" id="fa-heart"></i><i class="fa-solid fa-plus" id="fa-plus"></i></div>
+                    </div></a>
+                    <!--song 10 end-->
+                </div>
+                <!--song container ended-->   
+            </div>
+            <!--end of left section-->
+            <!--aside section start-->
+            <aside>
+                <!--similar artist section started-->
+                <h1>Similar Artist</h1>
+                <div class="artist_container"> <!--artist container height 300px width: 100%-->
+                    <div class="artist_container_1"> <!--song 1 container height 29%-->
+                        <div class="image_container_1">
+                            <img src="/Images/top3.jpeg" alt=""> <!--song 1 image-->
+                        </div>
+                        <div class="image_container_1_discription">
+                            <h3>Imagine Dragons</h3>
+                            <p>POP Brand</p>
+                        </div>
+                        <div class="image_container_drop_down"><!--song drop down button-->
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                </button>
+                                <p>4:44</p>
+                                <ul class="dropdown-menu">
+                                  <li><button class="dropdown-item" type="button">Play</button></li>
+                                  <li><button class="dropdown-item" type="button">Add to favorite</button></li>
+                                  <li><button class="dropdown-item" type="button">Add to Queue</button></li>
+                                  <li><button class="dropdown-item" type="button">Get Info</button></li>
+                                </ul>
+                              </div>
+                        </div>
+                    </div> <!--artist container 1 ended-->
+                    <!--srtist container 2 start-->
+                    <div class="artist_container_1">
+                        <div class="image_container_1">
+                            <img src="/Images/top3.jpeg" alt=""> <!--artist container-2 image-->
+                        </div>
+                        <div class="image_container_1_discription">
+                            <h3>Imagine Dragons</h3>
+                            <p>POP Brand</p>
+                        </div>
+                        <div class="image_container_drop_down"> <!--artist container 2 drop down-->
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                </button>
+                                <p>4:44</p>
+                                <ul class="dropdown-menu">
+                                  <li><button class="dropdown-item" type="button">Play</button></li>
+                                  <li><button class="dropdown-item" type="button">Add to favorite</button></li>
+                                  <li><button class="dropdown-item" type="button">Add to Queue</button></li>
+                                  <li><button class="dropdown-item" type="button">Get Info</button></li>
+                                </ul>
+                              </div>
+                        </div>
+                    </div><!--artistcontainer 2 ended-->
+                    <!--artist container 3 started-->
+                    <div class="artist_container_1">
+                        <div class="image_container_1">
+                            <img src="/Images/top3.jpeg" alt="">
+                        </div>
+                        <div class="image_container_1_discription">
+                            <h3>Imagine Dragons</h3>
+                            <p>POP Brand</p>
+                        </div>
+                        <div class="image_container_drop_down">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                </button>
+                                <p>4:44</p>
+                                <ul class="dropdown-menu">
+                                  <li><button class="dropdown-item" type="button">Play</button></li>
+                                  <li><button class="dropdown-item" type="button">Add to favorite</button></li>
+                                  <li><button class="dropdown-item" type="button">Add to Queue</button></li>
+                                  <li><button class="dropdown-item" type="button">Get Info</button></li>
+                                </ul>
+                              </div>
+                        </div>
+                    </div><!--artist container 3 ended-->
+                    <!--artist container 4 started-->
+                    <div class="artist_container_1">
+                        <div class="image_container_1">
+                            <img src="/Images/top3.jpeg" alt="">
+                        </div>
+                        <div class="image_container_1_discription">
+                            <h3>Imagine Dragons</h3>
+                            <p>POP Brand</p>
+                        </div>
+                        <div class="image_container_drop_down">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                </button>
+                                <p>4:44</p>
+                                <ul class="dropdown-menu">
+                                  <li><button class="dropdown-item" type="button">Play</button></li>
+                                  <li><button class="dropdown-item" type="button">Add to favorite</button></li>
+                                  <li><button class="dropdown-item" type="button">Add to Queue</button></li>
+                                  <li><button class="dropdown-item" type="button">Get Info</button></li>
+                                </ul>
+
+                              </div>
+                        </div>
+                    </div><!--atrist container 4 ended-->
+                    <!--artist conatiner 5 started-->
+                    <div class="artist_container_1">
+                        <div class="image_container_1">
+                            <img src="/Images/top3.jpeg" alt="">
+                        </div>
+                        <div class="image_container_1_discription">
+                            <h3>Imagine Dragons</h3>
+                            <p>POP Brand</p>
+                        </div>
+                        <div class="image_container_drop_down">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><button class="dropdown-item" type="button">Play</button></li>
+                                  <li><button class="dropdown-item" type="button">Add to favorite</button></li>
+                                  <li><button class="dropdown-item" type="button">Add to Queue</button></li>
+                                  <li><button class="dropdown-item" type="button">Get Info</button></li>
+                                </ul>
+                              </div>
+                        </div>
+                    </div><!--atrist container 5 ended-->
+                </div> <!--artist container ended-->
+                <!--recent played started-->
+                <h1>Recent Played</h1>
+                <div class="recent_played_container">
+                    <div class="recent_played_songs_container">
+                        <div class="num">01</div>
+                        <div class="recent_play_song_image">
+                            <img src="/Images/teriyan.jpg" alt="">
+                        </div>
+                        <div class="recent_played_song_name">
+                            <h4>Mirage</h4>
+                            <p>Else</p>
+                        </div>
+                        <div class="reaction"><i class="fa-solid fa-heart" id="fa-heart"></i></div>
+                    </div>
+                    <div class="recent_played_songs_container">
+                        <div class="num">02</div>
+                        <div class="recent_play_song_image">
+                            <img src="/Images/teriyan.jpg" alt="">
+                        </div>
+                        <div class="recent_played_song_name">
+                            <h4>Mirage</h4>
+                            <p>Else</p>
+                        </div>
+                        <div class="reaction"><i class="fa-solid fa-heart" id="fa-heart"></i></div>
+                    </div>
+                    <div class="recent_played_songs_container">
+                        <div class="num">03</div>
+                        <div class="recent_play_song_image">
+                            <img src="/Images/teriyan.jpg" alt="">
+                        </div>
+                        <div class="recent_played_song_name">
+                            <h4>Mirage</h4>
+                            <p>Else</p>
+                        </div>
+                        <div class="reaction"><i class="fa-solid fa-heart" id="fa-heart"></i></div>
+                    </div>
+                    <div class="recent_played_songs_container">
+                        <div class="num">04</div>
+                        <div class="recent_play_song_image">
+                            <img src="/Images/teriyan.jpg" alt="">
+                        </div>
+                        <div class="recent_played_song_name">
+                            <h4>Mirage</h4>
+                            <p>Else</p>
+                        </div>
+                        <div class="reaction"><i class="fa-solid fa-heart" id="fa-heart"></i></div>
+                    </div>
+                    <div class="recent_played_songs_container">
+                        <div class="num">05</div>
+                        <div class="recent_play_song_image">
+                            <img src="/Images/teriyan.jpg" alt="">
+                        </div>
+                        <div class="recent_played_song_name">
+                            <h4>Mirage</h4>
+                            <p>Else</p>
+                        </div>
+                        <div class="reaction"><i class="fa-solid fa-heart" id="fa-heart"></i></div>
+                    </div>
+                    <div class="recent_played_songs_container">
+                        <div class="num">06</div>
+                        <div class="recent_play_song_image">
+                            <img src="/Images/teriyan.jpg" alt="">
+                        </div>
+                        <div class="recent_played_song_name">
+                            <h4>Mirage</h4>
+                            <p>Else</p>
+                        </div>
+                        <div class="reaction"><i class="fa-solid fa-heart" id="fa-heart"></i></div>
+                    </div>
+                </div> <!--recent played ended-->
+            </aside>
+            <!--aside section ended-->
+
+        </main>
+        <!--main section ended-->
+        <!--footer section started -->
+        <footer>
+            <!--The bottom music bar which pops up when we play a music-->
+             <div id="music-bar" class="hide">
+                 <!--Music Icon-->
+                 <div class="cut">
+                    <a href="#">
+                       <i class="fas fa-circle"></i>
+                    </a>
+                </div>
+                 <div id="music-icon">
+                      <img src="/Images/3peg.jpg" alt="music-icon">
+                 </div>
+                 <!--End of music icon-->
+                 <!--Music title-->
+                 <div id="music-title">
+                     <b>evermore (feat. Bon Iver)</b>
+                     <div id="favourite">
+                        <i class="far fa-heart"></i>
+                     </div>
+                     <div id="remove">
+                         <i class="fas fa-ban"></i>
+                     </div>
+                     <br/>
+                     <artist id="music-player-title-artist">Taylor Swift</artist>
+                 </div>
+                 <!--End of music title-->
+                 <!--Play buttons-->
+                 <div id="play-buttons">
+                     <i class="fas fa-random"></i>
+                     <i class="fas fa-backward"></i>
+                     <i class="fas fa-pause-circle"></i>
+                     <i class="fas fa-forward"></i>
+                     <i class="fas fa-undo-alt"></i>
+                 </div>
+                 <!--End of play buttons-->
+                 <!--Music start time-->
+                 <div id="start-time">
+                     0:00
+                 </div>
+                 <!--End of music start time-->
+                 <!--Music end time-->
+                 <div id="end-time">
+                     5:04
+                 </div>
+                 <!--End of music end time-->
+                 <!--Begining of the progress bar-->
+                 <div id="progress-bar">
+                      <div id="circle">
+                          <i class="fas fa-circle"></i>
+                     </div>
+                 </div>
+                 <!--End of progress bar-->
+                 <!--Miscellaneous icons-->
+                 <div id="queue">
+                     <i class="fas fa-bars"></i>
+                 </div>
+                 <div id="volume">
+                     <i class="fas fa-volume-up"></i>
+                 </div>
+                 <div id="progress-bar-volume">
+                     <div id="circle-volume">
+                       <i class="fas fa-circle"></i>
+                     </div>
+                 </div>
+                 
+                 <!--End of miscellaneous icons-->
+             </div>
+             <!--End of music bar-->
+            </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body> <!--end of body-->
+</html>
+<!--end of HTML-->

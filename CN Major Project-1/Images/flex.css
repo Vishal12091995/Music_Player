@@ -1,0 +1,39 @@
+#Container{
+    display: flex;
+    background-color: aquamarine;
+    height: auto;
+    width: 75vw;
+    margin: 0px auto;
+    flex-wrap:wrap;
+}
+#div1{
+    height:20vh;
+    width: 20vw;
+    background-color: rgba(70, 155, 105,0.5);
+    flex-grow: 1;
+}
+#div2{
+    height:20vh;
+    width: 20vw;
+    background-color: rgba(70, 71, 155, 0.5);
+    flex-grow: 3;
+
+}
+#div3{
+    height:20vh;
+    width: 20vw;
+    background-color: rgba(198, 28, 51, 0.5);
+    flex-grow: 2;
+}
+#div4{
+    height:20vh;
+    width: 20vw;
+    background-color: rgba(54, 18, 86, 0.5);
+    flex-grow: 1;
+}
+#div5{
+    height:20vh;
+    width: 20vw;
+    background-color: rgba(171, 235, 43, 0.5);
+    flex-grow:1;
+}
